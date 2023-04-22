@@ -97,17 +97,7 @@ function draw()
   Engine.update(engine);
 
 
-  if(collide(fruit,ground.body)==true )
-  {
-
-     bunny.changeAnimation('crying', sad);
-   }
-
-  if(collide(fruit,bunny)==true )
-  {
-    bunny.changeAnimation('eating');
-  }
-   
+   // add colisão
 
 
 
